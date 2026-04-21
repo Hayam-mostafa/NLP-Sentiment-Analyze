@@ -32,14 +32,16 @@ IMDB Movie Reviews Dataset (50K reviews)
 4. Training LSTM model
 5. Evaluation using accuracy and classification report
 6. Deployment using Streamlit
-
 ---
 
 ## 📊 Results
 
-Classification Report:
+* Accuracy: 87%
+* Precision: 0.87 / 0.86
+* Recall: 0.86 / 0.88
+* F1-score: 0.87
 
-![Classification Report](results.png)
+The model shows balanced performance across both classes with good generalization.
 
 ---
 
@@ -47,7 +49,7 @@ Classification Report:
 
 Streamlit app for real-time prediction:
 
-![Demo](demo.gif)
+<p align="center"><img src="demo.gif" width="600"/></p>
 
 ---
 
